@@ -10,10 +10,10 @@ import LearningLanguageSection from "../components/core/Homepage/LearningLanguag
 import InstructorSection from "../components/core/Homepage/InstructorSection";
 import ExploreMore from "../components/core/Homepage/ExploreMore";
 
-
 const Home = () => {
   return (
     <div>
+  
       {/* {section 1} */}
       <div
         className="relative mx-auto flex flex-col width-11/12 items-center
@@ -132,7 +132,7 @@ const Home = () => {
       <div className="bg-pure-greys-5 text-richblack-700">
         <div className="bg_homepage h-[310px]">
           <div className="w-11/12 max-w-maxContent flex flex-col mx-auto  items-center justify-center  gap-5">
-            <div className="h-[150px]"></div>
+            <div className="h-[170px]"></div>
             <div className="flex flex-row gap-3 text-white">
               <FSTButton active={true} linkto={"/signup"}>
                 <div className="flex items-center gap-3">

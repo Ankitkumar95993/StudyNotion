@@ -63,7 +63,7 @@ function LoginForm(){
                                  (<AiOutlineEye fontSize={24} fill="AFB2BF"/>)} 
                 </span>
 
-                <Link to="/forget-password">
+                <Link to="/forgot-password">
                     <p className="mt-1 ml-auto max-w-max text-xs text-blue-100">
                         Forgot Password
                     </p>

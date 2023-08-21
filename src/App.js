@@ -9,6 +9,9 @@ import Signup from "./Pages/Signup"
 import ForgotPassword from "./Pages/ForgotPassword"
 import UpdatePassword from "./Pages/UpdatePassword"
 import VerifyEmail from "./Pages/VerifyEmail"
+import About from "./Pages/About"
+import ContactUs from "./Pages/ContactUs";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path="/" element={<Home/>} />
+
       <Route
           path="signup"
           element={
@@ -24,6 +28,7 @@ function App() {
             </OpenRoute>
           }
         />
+
     <Route
           path="login"
           element={
@@ -58,6 +63,28 @@ function App() {
             </OpenRoute>
           }
         />
+
+        <Route
+          path="about"
+          element={
+            <OpenRoute>
+              <About />
+            </OpenRoute>
+          }
+        />
+
+        <Route
+          path="contact"
+          element={
+            <OpenRoute>
+              <ContactUs/>
+            </OpenRoute>
+          }
+        />
+
+        {/* <Route path="dashboard/my-profile" 
+         element ={<MyProfile/>}
+         /> */}
     </Routes>
 
    </div>
